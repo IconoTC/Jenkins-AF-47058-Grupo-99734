@@ -88,6 +88,7 @@
 - <https://github.com/jenkins-docs/quickstart-tutorials>
 - <https://github.com/jmagit/demos-devops>
 - <https://github.com/jmagit/demos-frontend-angular>
+- <https://github.com/jmagit/devops-dotnet>
 - <https://github.com/jmagit/MOCKWebServer>
 - <https://github.com/spring-projects/spring-petclinic>
 
