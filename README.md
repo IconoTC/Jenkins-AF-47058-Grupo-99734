@@ -2,10 +2,6 @@
 
 ## Instalaciones
 
-### Herramientas
-
-- [Git](https://git-scm.com/)
-
 ### Docker Desktop
 
 - [WSL 2 feature on Windows](https://learn.microsoft.com/es-es/windows/wsl/install)
@@ -93,7 +89,7 @@
 
 ## Documentación
 
-- https://www.jenkins.io/
+- [Documentación oficial](https://www.jenkins.io/)
 
 ## Comandos
 
