@@ -73,6 +73,10 @@
             --env JAVA_OPTS="-Dhudson.plugins.git.GitSCM.ALLOW_LOCAL_CHECKOUT=true" ^
             jamarton/jenkins-whit-docker
 
+#### Jenkins con plugins pre instalados
+
+    docker run --name jenkins-host --network devops --publish 50080:8080 --publish 50000:50000 --volume "%cd%":/externo --volume docker-in-docker-certs:/certs/client:ro --volume jenkins-data:/var/jenkins_home --env DOCKER_CERT_PATH=/certs/client --env DOCKER_HOST=tcp://docker:2376 --env DOCKER_TLS_VERIFY=1 --env JAVA_OPTS="-Dhudson.plugins.git.GitSCM.ALLOW_LOCAL_CHECKOUT=true" jamarton/jenkins-with-docker
+
 ## Kata
 
 - [GildedRose Kata: Requisitos (es)](https://github.com/emilybache/GildedRose-Refactoring-Kata/blob/main/GildedRoseRequirements_es.md)
