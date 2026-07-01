@@ -1,8 +1,8 @@
 pipeline {
     agent any
-    // triggers { // Sondear repositorio a intervalos regulares
-    //     pollSCM('* * * * *')
-    // }
+    triggers { // Sondear repositorio a intervalos regulares
+        pollSCM('* * * * *')
+    }
     tools {
       maven 'maven_lts'
     }
